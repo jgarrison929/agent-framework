@@ -8,8 +8,6 @@ on:
       - "python/packages/lab/**"
   merge_group:
     branches: ["main"]
-  schedule:
-    - cron: "0 0 * * *" # Run at midnight UTC daily
 
 env:
   # Configure a constant location for the uv cache

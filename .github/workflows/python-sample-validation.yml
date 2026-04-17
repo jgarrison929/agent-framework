@@ -2,8 +2,6 @@ name: Python - Sample Validation
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *" # Run at midnight UTC daily
 
 env:
   # Configure a constant location for the uv cache
